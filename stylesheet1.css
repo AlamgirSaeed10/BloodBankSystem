@@ -1,0 +1,120 @@
+body
+{
+  background-image: url("images/back.jpg");
+   background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    font-family: Times;
+    height: 50px;
+    overflow: hidden;
+}
+h3
+{
+  padding-top: 5px;
+  text-align: center;
+}
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px 16px;
+    text-decoration: none;
+    font-family: Times;
+    height: 50px;
+}
+
+li a:hover {
+    background-color: #333;
+    height: 50px;
+}
+.active
+{
+    background-color: #419117;
+}
+input[type=text],input[type=E-mail],input[type=Date], select {
+    width: 450px;
+    padding: 10px 20px;
+    font-family: Times;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin: 5px 50px;
+}
+input[type=submit]{
+      border-radius: 5px;
+      background: #d30000;
+      color: white;
+      width: 530px;
+      height: 50px;
+      font-size: 20px;
+      border-radius: 8px;
+      font-family: Times;
+  }
+  input[type=radio]{
+      font-size: 20px;
+      border-radius: 8px;
+      font-family: Times;
+      margin: 2px 60px;
+  }
+form{
+      background: rgba(236, 236, 236, 0.98);
+      border-radius: 5px;
+      box-shadow: 0 0px 12px rgba(0, 0, 0, .74);
+      width: 550px;
+      margin-top: 10px;
+      padding-bottom: 10px;
+      text-align: left;
+      padding-left: 10px;
+
+    }
+    .banner
+    {
+        position: fixed;
+    }
+.navbar_menu 
+{
+  width: auto;
+  position: fixed;
+  top: 5px;
+  box-shadow: 0 0px 12px rgba(0, 0, 0, 1);
+}
+.video_tag
+{
+  margin-top: 15px;
+  width: 420px;
+  height: auto;
+}
+.image_tag
+{
+ width: 720px;
+  height: 480px;
+  margin-top: 70px;
+  margin-left: 70px;
+}
+.left_side_ad
+{
+  height: 720px;
+  width: 200px;
+  background-color: red;
+  color: white;
+  margin-right:  500px;
+}
+.center_tag
+{
+  height: 720px;
+  width: 800px;
+  background-color: green;
+  color: white;
+  margin-left:220px;
+
+}

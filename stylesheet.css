@@ -1,0 +1,77 @@
+ body
+  {
+    background-image:url("images/back.jpg");
+     background-repeat: no-repeat;
+    background-attachment: fixed;
+	
+  }
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    li:hover
+    {
+      background-color: red;
+    }
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    .row.content {height: 450px}
+    
+    /* Set gray background color and 100% height */
+    .sidenav {
+      padding-top: 20px;
+      height: 100%;
+    }
+    
+    /* Set black background color, white text and some padding */
+    footer {
+      background-color: #000;
+      color: white;
+      padding: 15px;
+    }
+    
+    /* On small screens, set height to 'auto' for sidenav and grid */     
+.carousel{
+    background: #2f4357;
+    margin-top: 20px;
+}
+
+.carousel .item{
+  height: 250px;
+    min-height: 260px; /* Prevent carousel from being distorted if for some reason image doesn't load */
+    padding:50px;
+    margin-left: 15%;
+    color: #fff;
+    font-family: Times;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px #000;
+}
+.carousel .item img{
+    margin: 0 auto; /* Align slide image horizontally center */
+}
+.bs-example{
+  margin: 20px;
+}
+table {
+    font-family: Times;
+    border-collapse: collapse;
+    width: 100%;
+	text-align:center;
+}
+form
+{
+	text-align:center;
+	font-size:20px;
+	
+	
+}
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 4px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}

@@ -1,0 +1,109 @@
+<html lang="en">
+<head>
+  <title>Index</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="stylesheet1.css">
+</head>
+<body>
+  <!------------------------------------------------------Navigation bar code starts-------------------------------------------------------->
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="Index.html" style="color: white;">Blood Bank System</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="Index.html">Home</a></li>
+      <li><a href="searchdonor.html">Search Donor</a></li>
+      <li><a href="searchblood.html">Search Blood</a></li>
+      <li><a href="donateblood.html">Donate Blood</a></li>
+      <li><a href="registeredhospital.html">Registerd Hospital</a></li>
+      <li><a href="registeredngo.html">Registerd NGO's</a></li>     	  
+       <li><a href="registeredlab.html">Registerd Labs</a></li> 
+      <li><a href="bloodcamp.html">Blood Camps Info</a></li>      
+      <li><a href="createaccount.html">Create Account</a></li>
+      <li><a href="login.html">Login</a></li>
+    </ul>
+  </div>
+</nav>
+<!------------------------------------------------------------navigation code ends-------------------------------------------------------->
+
+
+<a href="Index.html"><img src="images/logo.png"></a>
+<center>
+		<form>
+<div class="ngo_info">
+	<h3>Register Hospital</h3>
+
+	Hospital ID:</br><input type="text" name="ngo_name" placeholder="Hospital id" required><br/>
+	Hospital Name:</br><input type="text" name="ngo_name" placeholder="Hospital name"required><br/>
+	Hospital Address:</br><input type="text" name="ngo_name" placeholder="Hospital Address" required><br/>
+	Hospital Contact:<br/><input type="E-Mail" name="ngo_name" placeholder="Contct number"required><br/>
+	Hospital E-Mail:<br/><input type="E-Mail" name="ngo_name" placeholder="Enter Email"required><br/>
+	City:<br/>
+	<select required>
+		<option>Select the City</option>
+		<option>Islamabad</option>
+		<option>Karachi</option>
+		<option>Jhelum</option>
+		<option>Lahore</option>
+		<option>Kharian</option>
+		<option>Multan</option>
+		<option>Mianwali</option>
+		<option>Rawalpindi</option>
+		<option>Dera Ghazi Khan</option>
+		<option>Dera Ismail Khan</option>
+		<option>Rahem Yar Khan</option>
+		
+	</select>
+	OwnerShip:<br/>
+	<select>
+		<option>---Select owner ship type----</option>
+		<option>Private</option>
+		<option>Governament</option>
+		
+	</select></br>
+	Province:<br/>
+	<select>
+		<option>Select the Province</option>
+		<option>Punjab</option>
+		<option>Sindh</option>
+		<option>KPK</option>
+		<option>Balochistan</option>
+	</select></br>
+		Total Bed:<br/>
+	<select>
+		<option>Select the total no of bed</option>
+		<option>20-50</option>
+		<option>50-100</option>
+		<option>>100</option>
+		
+		
+	</select></br>
+<center>	<button onclick="myFunction()">Register </button></center>
+	
+</div>
+
+ 
+</form>
+</center>
+
+
+
+<footer class="container-fluid text-center">
+  <p>&copy 2018 Developer by: HAAI Group of companies Ltd.</p>
+</footer>
+
+</body>
+<script>
+function myFunction() {
+    alert("Register Successfully");
+}
+</script
+</html>
